@@ -1,0 +1,14 @@
+																/* roots */
+:root {
+--primary_color: #6867AC;
+--secondary_color: #A267AC;
+--tertiary_color: #CE7BB0;
+--subsitute_color: #FFBCD1;
+--border: 1px solid red;
+--white: #fff;
+--black: #000;
+--gray: #545454;
+--secondary_font: 'Quicksand', sans-serif;
+--primary_font: 'Dancing Script', cursive; 
+--subsitute_font: 'Libre Baskerville', serif;
+}

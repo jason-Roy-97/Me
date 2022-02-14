@@ -1,0 +1,806 @@
+@import "universal.css";
+@import "fonts.css";
+@import "variables.css";
+
+/*begins styling*/
+#main-container {
+    width: 100%;
+    height: 72vh;
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar-container {
+    height: 80%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo_container {
+    height: 87px;
+    width: 91px;
+    border-radius: 50%;
+    background: url("jason.png");
+    background-size: cover;
+}
+
+#nav_items,
+.nav_items_lst,
+.nav_links {
+    list-style-type: none;
+    float: left;
+    font-family: var(--secondary_font);
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--subsitute_color);
+    font-size: calc(1rem + 2px);
+}
+
+
+#nav_item_ul {
+    margin-right: 10px;
+}
+
+.nav_items_lst {
+    padding: 0 10px 0 10px;
+}
+
+.nav_links:hover {
+    color: var(--primary_color);
+    transition: all 0.5s;
+}
+
+#intro_container {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro_h {
+    height: 25%;
+    width: fit-content;
+    text-align: center;
+    color: var(--subsitute_color);
+}
+
+.intro_heading {
+    font-family: var(--primary_font);
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*head styling*/
+#heading_container {
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    font-family: var(--primary_font);
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.heading_container_head_h {
+    color: var(--primary_color);
+    font-size: 57px;
+}
+
+.heading_container_sub_head_h {
+    color: #8C8BE7;
+    font-size: 27px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*moblie styling*/
+#moblie_main_container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#moblie_container {
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(720deg, var(--secondary_color), var(--subsitute_color));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+/*nokia moblie styling*/
+#nokia {
+    width: 30%;
+    height: 70%;
+    border-top-left-radius: 31%;
+    border-bottom-left-radius: 31%;
+    border-top-right-radius: 31%;
+    border-bottom-right-radius: 31%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+    background-color: var(--white);
+    box-shadow: 1px 1px 1px 1px #725a5a;
+}
+
+#samsung {
+    width: 37%;
+    height: 80%;
+    background: linear-gradient(0deg, #2a3a78, #6877b4);
+}
+
+#top_notch {
+    width: 50%;
+    height: 10%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.camera {
+    height: 40%;
+    width: 11%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--gray);
+    margin-right: 10px;
+}
+
+.camera_boder {
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column;
+    background-color: gray;
+}
+
+.camera_eye_1 {
+    width: 60%;
+    height: 58%;
+    border-radius: 50%;
+    background-color: var(--white);
+}
+
+.camera_eye_2 {
+    width: 32%;
+    height: 33%;
+    border-radius: 50%;
+    background: var(--white);
+}
+
+.speaker {
+    width: 30%;
+    height: 10%;
+    background: #c8c8c8;
+}
+
+.speaker_design {
+    border: 2px dotted var(--primary_color);
+}
+
+.screen {
+    width: 80%;
+    height: 71%;
+    background: url("nokia-bg.png");
+    background-size: cover;
+    color: var(--white);
+}
+
+.sub_screen {
+    width: 100%;
+    height: 100%;
+    background: center url("nokia.png")no-repeat;
+    background-size: cover;
+}
+
+.icon_stats {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service_provider {
+    width: 30%;
+    height: 100%;
+}
+
+.service_provider_name {
+    font-size: 9px;
+    padding-left: 5px;
+    font-family: var(--secondary_font);
+    font-weight: 500;
+}
+
+.screen_icons {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.speed {
+    display: inline;
+    font-size: 10px;
+    font-family: var(--secondary_font);
+    font-weight: 500;
+}
+
+.screen_icons_list,
+.screen_icons_individual {
+    list-style-type: none;
+    display: inline;
+}
+
+.screen_p {
+    width: 100%;
+    height: 20%;
+    margin-top: 73px;
+    background-color: #ffb504ed;
+}
+
+.screen_writeup {
+    font-size: 12px;
+    padding-left: 4px;
+}
+
+.screen_msg_link {
+    text-decoration: none;
+    color: var(--white);
+}
+
+#bottom_notch {
+    width: 22%;
+    height: 11%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    height: 100%;
+    width: 77%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #423d3d;
+}
+
+.home_border {
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    background-color: var(--gray);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*samsung styling*/
+.samsung_icon_bar {
+    width: 100%;
+    height: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.samsung_head {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--secondary_font);
+    font-weight: bold;
+    color: var(--white);
+    font-size: 50px;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2a638e,
+            0 0 40px #2a638e, 0 0 50px #2a638e, 0 0 60px #2a638e;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #2a638e,
+            0 0 50px #2a638e, 0 0 60px #2a638e, 0 0 70px #2a638e;
+    }
+}
+
+@-moz-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2a638e,
+            0 0 40px #2a638e, 0 0 50px #2a638e, 0 0 60px #2a638e;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #2a638e,
+            0 0 50px #2a638e, 0 0 60px #2a638e, 0 0 70px #2a638e;
+    }
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2a638e,
+            0 0 40px #2a638e, 0 0 50px #2a638e, 0 0 60px #2a638e;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #2a638e,
+            0 0 50px #2a638e, 0 0 60px #2a638e, 0 0 70px #2a638e;
+    }
+}
+
+.samsung_para {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--secondary_font);
+    font-weight: bold;
+    color: var(--white);
+    font-size: 20px;
+}
+
+.samsung_btn {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.accept,
+.refuse {
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 10px 20px 10px 20px;
+    color: var(--white);
+    font-family: var(--secondary_font);
+    cursor: pointer;
+    box-shadow: 9px 6px 0px 0px #fff;
+}
+
+.accept:hover,
+.refuse:hover {
+    background-color: var(--white);
+    color: #2a3a78;
+    box-shadow: 9px 6px 0px 0px #2a3a78;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#note_committe_container_1 {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#note_committe_head {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: var(--subsitute_font);
+    font-weight: 300;
+    color: var(--gray);
+}
+
+#note_committe_container_2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#note_committe_para {
+    width: 60%;
+    height: 100%;
+    font-family: var(--subsitute_font);
+    color: var(--gray);
+    font-size: 25px;
+    padding: 10px;
+}
+
+.para{
+    padding-bottom: 37px;
+}
+
+.end_mark_container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.end_mark{
+    width: 10%;
+    border-top: 5px dotted var(--gray);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*help container style begins*/
+#help_container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#help_sub_container {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+#help_container_heading {
+    width: fit-content;
+    height: auto;
+    font-family: var(--primary_font);
+    color: var(--primary_color);
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+    font-size: 30px;
+}
+
+#help_container_sub_heading {
+  font-family: var(--primary_font);
+  color: #8C8BE7;
+  font-size: 25px;
+  margin: 0px 0px 30px 0px;
+}
+
+
+#help_container_para{
+    width: fit-content;
+    height: auto;
+    font-family: var(--secondary_font);
+    color: var(--gray);
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+}
+
+#help_container_btn{
+    width: fit-content;
+    height: auto;
+}
+
+.msg_btn{
+  border: none;
+  background: #8C8BE7;
+  padding: 10px 30px 10px 30px;
+  font-family: var(--secondary_font);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--primary_color);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.msg_btn:hover {
+  background: #7373c5;
+  transition: all .5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer_container{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--subsitute_color);
+}
+
+#footer_sub_container{
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+}
+
+#footer_list{
+    width: auto;
+    margin-top: 50px;
+    font-family: var(--secondary_font);
+    font-weight: 500;
+    font-size: 22px;  
+}
+
+#scoial, .social_icon{
+    list-style-type: none;
+    display: inline;
+    padding: 0px 90px 0px 0px;
+    color: #8C8BE7;
+}
+
+.social_link{
+    text-decoration: none;
+}
+
+.social_icon:hover {
+  color: var(--primary_color);
+}
+
+#copyright_section{
+    width: auto;
+    height: auto;
+    font-family: var(--secondary_font);
+    font-weight: 500;
+    color: var(--primary_color);
+    margin-bottom: 50px;
+}
+
+.jason{
+    color: var(--primary_color);
+}
+
+.jason:hover{
+    color: #8C8BE7;
+}
